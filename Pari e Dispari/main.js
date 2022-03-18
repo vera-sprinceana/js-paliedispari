@@ -26,8 +26,8 @@ function getRandomInt(min, max) {
     }
 } console.log(numeroPariDispari(somma))
 
-if(pariDispari=="pari"){
+if(pariDispari===numeroPariDispari(somma)){
     document.getElementById("numero").innerHTML=`${pariDispari}  L'utente ha vinto`;
 }else{
-    document.getElementById("numero").innerHTML=`${pariDispari}   L'utente ha perso`;
+    document.getElementById("numero").innerHTML=`${pariDispari}   L'utente ha perso XD`;
 }
